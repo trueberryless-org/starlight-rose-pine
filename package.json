@@ -1,0 +1,19 @@
+{
+  "name": "starlight-rose-pine-monorepo",
+  "version": "0.0.1",
+  "license": "MIT",
+  "description": "Soho vibes for Starlight",
+  "author": "trueberryless-org",
+  "type": "module",
+  "engines": {
+    "node": "^18.17.1 || ^20.3.0 || >=21.0.0"
+  },
+  "packageManager": "pnpm@9.6.0",
+  "private": true,
+  "homepage": "https://github.com/trueberryless-org/starlight-rose-pine",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/trueberryless-org/starlight-rose-pine.git"
+  },
+  "bugs": "https://github.com/trueberryless-org/starlight-rose-pine/issues"
+}

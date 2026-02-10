@@ -1,0 +1,38 @@
+{
+  "name": "starlight-rose-pine",
+  "version": "0.0.1",
+  "license": "MIT",
+  "description": "Soho vibes for Starlight",
+  "author": "trueberryless-org",
+  "type": "module",
+  "exports": {
+    ".": "./index.ts",
+    "./styles/*": "./styles/*",
+    "./themes/*": "./themes/*"
+  },
+  "scripts": {
+    "build": "tsx scripts/build-themes.ts"
+  },
+  "devDependencies": {
+    "@astrojs/starlight": "^0.37.6",
+    "astro": "^5.17.1",
+    "tsx": "^4.21.0",
+    "typescript": "^5.9.3"
+  },
+  "peerDependencies": {
+    "@astrojs/starlight": ">=0.37"
+  },
+  "engines": {
+    "node": "^18.17.1 || ^20.3.0 || >=21.0.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "homepage": "https://github.com/trueberryless-org/starlight-rose-pine",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/trueberryless-org/starlight-rose-pine.git",
+    "directory": "packages/starlight-rose-pine"
+  },
+  "bugs": "https://github.com/trueberryless-org/starlight-rose-pine/issues"
+}

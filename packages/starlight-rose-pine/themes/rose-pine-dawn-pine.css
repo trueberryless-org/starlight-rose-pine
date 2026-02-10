@@ -1,0 +1,44 @@
+@layer rose-pine {
+  :root[data-theme='light'] {
+    --sl-color-accent-low: hsl(197, 53%, 9%);
+    --sl-color-accent: hsl(197, 53%, 34%);
+    --sl-color-accent-high: hsl(197, 53%, 79%);
+
+    --sl-color-white: #575279;
+    --sl-color-gray-1: #797593;
+    --sl-color-gray-2: #9893a5;
+    --sl-color-gray-3: #cecacd;
+    --sl-color-gray-4: #dfdad9;
+    --sl-color-gray-5: #f2e9e1;
+    --sl-color-gray-6: #f4ede8;
+    --sl-color-gray-7: #fffaf3;
+    --sl-color-black: #faf4ed;
+
+    --sl-hue-orange: 35;
+    --sl-color-orange-low: hsl(35, 81%, 86%);
+    --sl-color-orange: hsl(35, 81%, 56%);
+    --sl-color-orange-high: hsl(35, 81%, 41%);
+
+    --sl-hue-green: 197;
+    --sl-color-green-low: hsl(197, 53%, 64%);
+    --sl-color-green: hsl(197, 53%, 34%);
+    --sl-color-green-high: hsl(197, 53%, 19%);
+
+    --sl-hue-blue: 189;
+    --sl-color-blue-low: hsl(189, 30%, 78%);
+    --sl-color-blue: hsl(189, 30%, 48%);
+    --sl-color-blue-high: hsl(189, 30%, 33%);
+
+    --sl-hue-purple: 268;
+    --sl-color-purple-low: hsl(268, 21%, 87%);
+    --sl-color-purple: hsl(268, 21%, 57%);
+    --sl-color-purple-high: hsl(268, 21%, 42%);
+
+    --sl-hue-red: 343;
+    --sl-color-red-low: hsl(343, 35%, 85%);
+    --sl-color-red: hsl(343, 35%, 55%);
+    --sl-color-red-high: hsl(343, 35%, 40%);
+
+    color-scheme: light;
+  }
+}
