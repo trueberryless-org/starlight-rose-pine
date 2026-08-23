@@ -32,7 +32,7 @@
   "devDependencies": {
     "@astrojs/starlight": "^0.41.6",
     "astro": "^6.4.8",
-    "tsx": "^4.23.1",
+    "tsx": "^4.23.4",
     "typescript": "^5.9.3"
   },
   "peerDependencies": {
